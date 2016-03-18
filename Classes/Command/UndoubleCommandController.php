@@ -277,7 +277,7 @@ class UndoubleCommandController extends AbstractCommandController
      * @since 1.1.0
      *
      * @param bool $dryRun Do a test run, no modifications.
-     * @param bool $iKnowWhatImDoing Do you know what you are doing?
+     * @param bool $iKnowWhatImDoing Do you know what you are doing? If provided, will remove the files. Can be used together with --dry-run to get a preview of the files to be removed.
      *
      * @return void
      */
