@@ -97,6 +97,11 @@ class UndoubleCommandController extends AbstractCommandController
         $this->message('We can remove           : ' . $this->successString($totalFileCount - $uniqueFileCount));
         $this->message();
         $this->message('Potential space saved   : ' . $this->successString(GeneralUtility::formatSize($this->getPossibleSpaceSaved())));
+        $this->message();
+        $this->message('If you have more files in the _migrated/ folder, make sure that their copies');
+        $this->message('(most likely located inside the user_upload/ folder), also have an entry in the sys_file table.');
+        $this->message('This can e.g. be done by navigating to their folder in the file list module.');
+        $this->message('Otherwise, the extension will not recognize these files as duplicated.');
     }
 
     /**
