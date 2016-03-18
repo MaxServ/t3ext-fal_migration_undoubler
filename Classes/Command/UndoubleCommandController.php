@@ -291,8 +291,8 @@ class UndoubleCommandController extends AbstractCommandController
             $this->warningMessage('');
             $this->warningMessage('You can update references to these files by running the commands:');
             $this->warningMessage('- undouble:migratedfiles');
-            $this->warningMessage('- undouble:updtetypolinkfields');
-            $this->warningMessage('- undouble:updtetypolinktagfields');
+            $this->warningMessage('- undouble:updatetypolinkfields');
+            $this->warningMessage('- undouble:updatetypolinktagfields');
             $this->warningMessage('');
             $this->warningMessage('Please specify the option --i-know-what-im-doing');
             exit();
