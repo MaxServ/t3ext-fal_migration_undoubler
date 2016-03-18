@@ -132,5 +132,5 @@ Options
 
 ``--dry-run``
   Do a test run, no modifications.
-``--iknow-what-im-doing``
-  Do you know what you are doing?
+``--i-know-what-im-doing``
+  Do you know what you are doing? If provided, will remove the files. Can be used together with --dry-run to get a preview of the files to be removed.
